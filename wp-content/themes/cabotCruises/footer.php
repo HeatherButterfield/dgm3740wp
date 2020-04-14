@@ -33,9 +33,9 @@
   </div>
 </div>
 
-<script type="text/javascript" src="./js/toggleMenu.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/toggleMenu.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="./slick/slick.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/slick/slick.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
   $('.slider').slick({
