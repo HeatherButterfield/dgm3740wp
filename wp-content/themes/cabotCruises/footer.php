@@ -1,3 +1,6 @@
+  </main>
+</div>
+
 <div class="footerWrapper">
   <footer>
       <div class="footerSection">

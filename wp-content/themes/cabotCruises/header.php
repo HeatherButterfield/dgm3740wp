@@ -26,3 +26,6 @@
       <div class="searchBar"><input type="search" id="searchInput" value="Search..."><i class="fas fa-search"></i></div>
     </nav>
   </div>
+
+  <div class="mainWrapper">
+    <main>
