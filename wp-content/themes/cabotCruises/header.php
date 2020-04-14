@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Cabot Cruises <?php wp_title(); ?></title>
 </head>
 <body>
 
