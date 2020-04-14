@@ -1,0 +1,206 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+$menuColor: #67c3a8;
+$menuTextColor: white;
+
+/*----------- BODY --------------*/
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+  color: #2f3c59;
+}
+form input, select {
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+button {
+  background-color: $menuColor;
+  color: $menuTextColor;
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  border-style: none;
+  margin: 5px;
+}
+label {
+  margin: 5px;
+}
+form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.agentPhoto {
+  height: 400px;
+  float: right;
+  margin: 20px;
+}
+.cruises {
+  display: flex;
+  flex-direction: column;
+}
+.cruiseSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cruiseDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+/*----------- HEADER --------------*/
+.headerWrapper {
+  background-color: white;
+}
+header {
+    padding: .5rem 2%;
+    background-color: white;
+    max-width: 1200px;
+}
+header h1 {
+  margin: 0;
+  color: #2f3c59;
+}
+.logo {
+  float: left;
+  margin: 0 2% 0 0;
+}
+#headerTel {
+  float: right;
+}
+
+/*----------- NAVIGATION --------------*/
+.fa-search {
+  background-color: #2f3c59;
+  color: white;
+  padding: 4px;
+}
+.searchBar {
+  float: right;
+  padding-top: 10px;
+}
+nav {
+  z-index: 100;
+}
+
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+}
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.post1 {
+  background-image: url("../images/blog1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post2 {
+  background-image: url("../images/blog2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post3 {
+  background-image: url("../images/blog3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post4 {
+  background-image: url("../images/blog4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.blogPost {
+  opacity: 75%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.blogPost:hover {
+  opacity: 100%;
+}
+.top {
+  background-color: rgba(103,195,168,0.7);
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+}
+.bottom {
+  background-color: rgba(103,195,168,0.7);
+  margin: 145px 0 0 0;
+  text-align: center;
+  padding: 5px;
+}
+
+
+/*----------- FOOTER --------------*/
+.footerWrapper {
+    background-color: #2f3c59;
+}
+footer {
+    background-color: #2f3c59;
+    padding: .5rem 2%;
+    color: white;
+    text-align: center;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 300px;
+  flex-wrap: wrap;
+}
+footer a {
+  color: white;
+}
+.social {
+  padding-top: 20px;
+  background-color: white;
+}
+.copy {
+  text-align: center;
+}
+.socialSection {
+  display: flex;
+  justify-content: space-around;
+}
+.socialSection i {
+  color: $menuColor;
+}
+.socialSection i:hover {
+  color: #2f3c59;
+}
+
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

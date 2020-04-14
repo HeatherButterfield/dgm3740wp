@@ -1,0 +1,104 @@
+
+$menuColor: #67c3a8;
+$menuTextColor: white;
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+    nav ul {margin-left: 2%;}
+    nav ul li {width: auto;}
+    nav ul li a{padding: .5rem 1rem;}
+    nav {
+      z-index: 100;
+    }
+
+
+/*----------- MAIN --------------*/
+.blog {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.post1 {
+  background-image: url("../images/blog1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post2 {
+  background-image: url("../images/blog2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post3 {
+  background-image: url("../images/blog3.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.post4 {
+  background-image: url("../images/blog4.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.blogPost {
+  opacity: 75%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.blogPost:hover {
+  opacity: 100%;
+}
+.top {
+  background-color: rgba(103,195,168,0.7);
+  margin: 0;
+  text-align: center;
+  padding: 5px;
+}
+.bottom {
+  background-color: rgba(103,195,168,0.7);
+  margin: 145px 0 0 0;
+  text-align: center;
+  padding: 5px;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 300px;
+}
+footer a {
+  color: white;
+}
+.social {
+  padding-top: 20px;
+  background-color: white;
+}
+.copy {
+  text-align: center;
+}
+.socialSection {
+  display: flex;
+  justify-content: space-around;
+}
+.socialSection i {
+  color: $menuColor;
+}
+.socialSection i:hover {
+  color: #2f3c59;
+}
