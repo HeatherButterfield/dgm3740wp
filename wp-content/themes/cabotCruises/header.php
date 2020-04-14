@@ -12,7 +12,7 @@
   <div class="headerWrapper">
     <header class="clearfix">
       <figure>
-        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo1.png" alt="logo" srcset="<?php echo get_template_directory_uri(); ?>/images/logo1.png 1x, ./images/logo2.png 2x, <?php echo get_template_directory_uri(); ?>/images/logo3.png 3x">
+        <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo1.png" alt="logo" srcset="<?php echo get_template_directory_uri(); ?>/images/logo1.png 1x, <?php echo get_template_directory_uri(); ?>/images/logo2.png 2x, <?php echo get_template_directory_uri(); ?>/images/logo3.png 3x">
       </figure>
       <h1>Cabot Cruises</h1>
       <a id="headerTel" href="tel:123-456-7890">123-456-7890</a>
