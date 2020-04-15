@@ -400,8 +400,17 @@ header h1 {
 .searchBar {
   display: flex;
   justify-content: flex-end;
+}
+
+.searchBar input {
   margin: 0px;
-  border-radius: 0px;
+  width: auto;
+}
+
+.searchBar button {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0px;
   width: auto;
 }
 
