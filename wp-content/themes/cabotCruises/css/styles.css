@@ -408,6 +408,7 @@ header h1 {
 }
 
 .searchBar button {
+  background-color: #2f3c59;
   padding: 10px;
   border-radius: 5px;
   margin: 0px;
