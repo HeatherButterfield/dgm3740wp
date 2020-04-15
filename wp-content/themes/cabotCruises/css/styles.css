@@ -405,12 +405,13 @@ header h1 {
 .searchBar input {
   margin: 0px;
   width: auto;
+  border-radius: 0px;
 }
 
 .searchBar button {
   background-color: #2f3c59;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 0px;
   margin: 0px;
   width: auto;
 }

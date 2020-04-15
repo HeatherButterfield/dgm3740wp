@@ -24,7 +24,7 @@
       <button id="hamburgerBtn"><span><i>&equiv;</i>OPEN</span> <span><i>&otimes;</i>CLOSE</span></button>
       <?php wp_nav_menu(array('menu_id' => 'primaryNav')); ?>
       <form class="searchBar" action="/">
-        <input type="search" name="s" id="searchInput" value="Search...">
+        <input type="search" name="s" id="searchInput" placeholder="Search...">
         <button type="submit"><i class="fas fa-search"></i></buttpn>
       </form>
     </nav>
