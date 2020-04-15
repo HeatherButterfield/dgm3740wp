@@ -23,7 +23,10 @@
     <nav class="clearfix">
       <button id="hamburgerBtn"><span><i>&equiv;</i>OPEN</span> <span><i>&otimes;</i>CLOSE</span></button>
       <?php wp_nav_menu(array('menu_id' => 'primaryNav')); ?>
-      <div class="searchBar"><input type="search" id="searchInput" value="Search..."><i class="fas fa-search"></i></div>
+      <form action="/">
+        <div class="searchBar"><input type="search" name="s" id="searchInput" value="Search...">
+        <input type="submit"><i class="fas fa-search"></i></div></input>
+      </form>
     </nav>
   </div>
 
