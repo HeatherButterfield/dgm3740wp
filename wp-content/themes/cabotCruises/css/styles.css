@@ -398,8 +398,8 @@ header h1 {
   padding: 4px; }
 
 .searchBar {
-  display: flex;
-  justify-content: flex-end;
+  display: inline;
+  float: right;
 }
 
 .searchBar input {
