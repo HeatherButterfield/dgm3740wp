@@ -339,6 +339,8 @@ button {
   border-style: none;
   margin: 5px; }
 
+.
+
 label {
   margin: 5px; }
 
@@ -397,7 +399,10 @@ header h1 {
 
 .searchBar {
   float: right;
-  padding-top: 10px; }
+  margin: 0px;
+  border-radius: 0px;
+  width: auto;
+}
 
 nav {
   z-index: 100; }

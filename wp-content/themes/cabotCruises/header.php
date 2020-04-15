@@ -25,7 +25,7 @@
       <?php wp_nav_menu(array('menu_id' => 'primaryNav')); ?>
       <form action="/">
         <div class="searchBar"><input type="search" name="s" id="searchInput" value="Search...">
-        <input type="submit"><i class="fas fa-search"></i></div></input>
+        <button class="searchBar" type="submit"><i class="fas fa-search"></i></div></buttpn>
       </form>
     </nav>
   </div>
