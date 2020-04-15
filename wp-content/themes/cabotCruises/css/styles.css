@@ -398,7 +398,8 @@ header h1 {
   padding: 4px; }
 
 .searchBar {
-  float: right;
+  display: flex;
+  justify-content: flex-end;
   margin: 0px;
   border-radius: 0px;
   width: auto;
