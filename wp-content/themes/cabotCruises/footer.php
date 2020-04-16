@@ -83,5 +83,11 @@ else if (page === 'agent2.php') {
 "openingHours": "Mo-Fr 09:00-17:00"
 }
 </script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+<script>
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+});
+</script>
 </body>
 </html>
