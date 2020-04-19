@@ -20,14 +20,14 @@
 
 // Sendgrid settings - Read in the sendgrid auth from the config //
 define('SENDGRID_USERNAME', $_ENV["SENDGRID_USERNAME"]);
-define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]);
-
+define('SENDGRID_PASSWORD', $_ENV["SENDGRID_PASSWORD"]); 
+  
 // S3 Config Info - read the S3 Access Keys from the config //
 define( 'AWS_ACCESS_KEY_ID', $_ENV["AWS_ACCESS_KEY_ID"]);
-define( 'AWS_SECRET_ACCESS_KEY', $_ENV["AWS_SECRET_ACCESS_KEY"]);
-
+define( 'AWS_SECRET_ACCESS_KEY', $_ENV["AWS_SECRET_ACCESS_KEY"]); 
+ 
 // ** ClearDB settings - from Heroku Environment ** //
-$db = parse_url($_ENV["CLEARDB_DATABASE_URL"]);
+$db = parse_url($_ENV["CLEARDB_DATABASE_URL"]); 
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -95,10 +95,6 @@ define('WPLANG', 'en');
  */
 define('WP_DEBUG', false);
 define( 'WP_AUTO_UPDATE_CORE', false );
-
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_DISPLAY', false );
-define( 'WP_DEBUG_LOG', true );
 
 /* That's all, stop editing! Happy blogging. */
 
